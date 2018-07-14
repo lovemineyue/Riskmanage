@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64CF2F4C20F88F4F00BF27C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CF2F4B20F88F4F00BF27C3 /* AppDelegate.m */; };
+		64CF2F5220F88F4F00BF27C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CF2F5020F88F4F00BF27C3 /* Main.storyboard */; };
+		64CF2F5420F88F5100BF27C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CF2F5320F88F5100BF27C3 /* Assets.xcassets */; };
+		64CF2F5720F88F5100BF27C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CF2F5520F88F5100BF27C3 /* LaunchScreen.storyboard */; };
+		64CF2F5A20F88F5100BF27C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CF2F5920F88F5100BF27C3 /* main.m */; };
+		64CF2F6420F88F5100BF27C3 /* RiskmanagementTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CF2F6320F88F5100BF27C3 /* RiskmanagementTests.m */; };
+		64CF2F6F20F88F5100BF27C3 /* RiskmanagementUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CF2F6E20F88F5100BF27C3 /* RiskmanagementUITests.m */; };
+		64CF2F7F20F8AA0900BF27C3 /* CPNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CF2F7E20F8AA0900BF27C3 /* CPNavigationController.m */; };
+		64CF2F8220F8AA2C00BF27C3 /* CPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CF2F8120F8AA2C00BF27C3 /* CPTabBarController.m */; };
+		64CF2F8720F8AC0100BF27C3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CF2F8520F8AC0100BF27C3 /* LoginViewController.m */; };
+		64CF2F8820F8AC0100BF27C3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CF2F8620F8AC0100BF27C3 /* LoginViewController.xib */; };
+		64CF2F8C20F8ACDA00BF27C3 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CF2F8A20F8ACDA00BF27C3 /* RegistViewController.m */; };
+		64CF2F8D20F8ACDA00BF27C3 /* RegistViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CF2F8B20F8ACDA00BF27C3 /* RegistViewController.xib */; };
+		E12D21D171B5EE1DF906B129 /* Pods_Riskmanagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F36E7D01BE51E13BE9FA47 /* Pods_Riskmanagement.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		64CF2F6020F88F5100BF27C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64CF2F3F20F88F4F00BF27C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64CF2F4620F88F4F00BF27C3;
+			remoteInfo = Riskmanagement;
+		};
+		64CF2F6B20F88F5100BF27C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 64CF2F3F20F88F4F00BF27C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64CF2F4620F88F4F00BF27C3;
+			remoteInfo = Riskmanagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46F36E7D01BE51E13BE9FA47 /* Pods_Riskmanagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Riskmanagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CF2F4720F88F4F00BF27C3 /* Riskmanagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riskmanagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CF2F4A20F88F4F00BF27C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64CF2F4B20F88F4F00BF27C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64CF2F5120F88F4F00BF27C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64CF2F5320F88F5100BF27C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64CF2F5620F88F5100BF27C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64CF2F5820F88F5100BF27C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64CF2F5920F88F5100BF27C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64CF2F5F20F88F5100BF27C3 /* RiskmanagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskmanagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CF2F6320F88F5100BF27C3 /* RiskmanagementTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiskmanagementTests.m; sourceTree = "<group>"; };
+		64CF2F6520F88F5100BF27C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64CF2F6A20F88F5100BF27C3 /* RiskmanagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RiskmanagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CF2F6E20F88F5100BF27C3 /* RiskmanagementUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RiskmanagementUITests.m; sourceTree = "<group>"; };
+		64CF2F7020F88F5100BF27C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64CF2F7D20F8AA0900BF27C3 /* CPNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPNavigationController.h; sourceTree = "<group>"; };
+		64CF2F7E20F8AA0900BF27C3 /* CPNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPNavigationController.m; sourceTree = "<group>"; };
+		64CF2F8020F8AA2C00BF27C3 /* CPTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPTabBarController.h; sourceTree = "<group>"; };
+		64CF2F8120F8AA2C00BF27C3 /* CPTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPTabBarController.m; sourceTree = "<group>"; };
+		64CF2F8420F8AC0100BF27C3 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		64CF2F8520F8AC0100BF27C3 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		64CF2F8620F8AC0100BF27C3 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		64CF2F8920F8ACDA00BF27C3 /* RegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		64CF2F8A20F8ACDA00BF27C3 /* RegistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		64CF2F8B20F8ACDA00BF27C3 /* RegistViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegistViewController.xib; sourceTree = "<group>"; };
+		6571C3F51B9996F62929C8D3 /* Pods-Riskmanagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riskmanagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-Riskmanagement/Pods-Riskmanagement.release.xcconfig"; sourceTree = "<group>"; };
+		EFD4F3DE2BE275883715D9F9 /* Pods-Riskmanagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riskmanagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Riskmanagement/Pods-Riskmanagement.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64CF2F4420F88F4F00BF27C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12D21D171B5EE1DF906B129 /* Pods_Riskmanagement.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CF2F5C20F88F5100BF27C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CF2F6720F88F5100BF27C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64CF2F3E20F88F4F00BF27C3 = {
+			isa = PBXGroup;
+			children = (
+				64CF2F4920F88F4F00BF27C3 /* Riskmanagement */,
+				64CF2F6220F88F5100BF27C3 /* RiskmanagementTests */,
+				64CF2F6D20F88F5100BF27C3 /* RiskmanagementUITests */,
+				64CF2F4820F88F4F00BF27C3 /* Products */,
+				8CAEB7A892160DA2DE7CA694 /* Pods */,
+				F2B99756D54418F3453225A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64CF2F4820F88F4F00BF27C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64CF2F4720F88F4F00BF27C3 /* Riskmanagement.app */,
+				64CF2F5F20F88F5100BF27C3 /* RiskmanagementTests.xctest */,
+				64CF2F6A20F88F5100BF27C3 /* RiskmanagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64CF2F4920F88F4F00BF27C3 /* Riskmanagement */ = {
+			isa = PBXGroup;
+			children = (
+				64CF2F8320F8ABDD00BF27C3 /* 登录注册 */,
+				64CF2F7C20F8A98200BF27C3 /* Main */,
+				64CF2F4A20F88F4F00BF27C3 /* AppDelegate.h */,
+				64CF2F4B20F88F4F00BF27C3 /* AppDelegate.m */,
+				64CF2F5020F88F4F00BF27C3 /* Main.storyboard */,
+				64CF2F5320F88F5100BF27C3 /* Assets.xcassets */,
+				64CF2F5520F88F5100BF27C3 /* LaunchScreen.storyboard */,
+				64CF2F5820F88F5100BF27C3 /* Info.plist */,
+				64CF2F5920F88F5100BF27C3 /* main.m */,
+			);
+			path = Riskmanagement;
+			sourceTree = "<group>";
+		};
+		64CF2F6220F88F5100BF27C3 /* RiskmanagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				64CF2F6320F88F5100BF27C3 /* RiskmanagementTests.m */,
+				64CF2F6520F88F5100BF27C3 /* Info.plist */,
+			);
+			path = RiskmanagementTests;
+			sourceTree = "<group>";
+		};
+		64CF2F6D20F88F5100BF27C3 /* RiskmanagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				64CF2F6E20F88F5100BF27C3 /* RiskmanagementUITests.m */,
+				64CF2F7020F88F5100BF27C3 /* Info.plist */,
+			);
+			path = RiskmanagementUITests;
+			sourceTree = "<group>";
+		};
+		64CF2F7C20F8A98200BF27C3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				64CF2F7D20F8AA0900BF27C3 /* CPNavigationController.h */,
+				64CF2F7E20F8AA0900BF27C3 /* CPNavigationController.m */,
+				64CF2F8020F8AA2C00BF27C3 /* CPTabBarController.h */,
+				64CF2F8120F8AA2C00BF27C3 /* CPTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		64CF2F8320F8ABDD00BF27C3 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				64CF2F8420F8AC0100BF27C3 /* LoginViewController.h */,
+				64CF2F8520F8AC0100BF27C3 /* LoginViewController.m */,
+				64CF2F8620F8AC0100BF27C3 /* LoginViewController.xib */,
+				64CF2F8920F8ACDA00BF27C3 /* RegistViewController.h */,
+				64CF2F8A20F8ACDA00BF27C3 /* RegistViewController.m */,
+				64CF2F8B20F8ACDA00BF27C3 /* RegistViewController.xib */,
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		8CAEB7A892160DA2DE7CA694 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFD4F3DE2BE275883715D9F9 /* Pods-Riskmanagement.debug.xcconfig */,
+				6571C3F51B9996F62929C8D3 /* Pods-Riskmanagement.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2B99756D54418F3453225A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46F36E7D01BE51E13BE9FA47 /* Pods_Riskmanagement.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64CF2F4620F88F4F00BF27C3 /* Riskmanagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CF2F7320F88F5100BF27C3 /* Build configuration list for PBXNativeTarget "Riskmanagement" */;
+			buildPhases = (
+				B4E5BBA08AA6503697D5D127 /* [CP] Check Pods Manifest.lock */,
+				64CF2F4320F88F4F00BF27C3 /* Sources */,
+				64CF2F4420F88F4F00BF27C3 /* Frameworks */,
+				64CF2F4520F88F4F00BF27C3 /* Resources */,
+				DEEF113870E8410234E9AF06 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Riskmanagement;
+			productName = Riskmanagement;
+			productReference = 64CF2F4720F88F4F00BF27C3 /* Riskmanagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64CF2F5E20F88F5100BF27C3 /* RiskmanagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CF2F7620F88F5100BF27C3 /* Build configuration list for PBXNativeTarget "RiskmanagementTests" */;
+			buildPhases = (
+				64CF2F5B20F88F5100BF27C3 /* Sources */,
+				64CF2F5C20F88F5100BF27C3 /* Frameworks */,
+				64CF2F5D20F88F5100BF27C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64CF2F6120F88F5100BF27C3 /* PBXTargetDependency */,
+			);
+			name = RiskmanagementTests;
+			productName = RiskmanagementTests;
+			productReference = 64CF2F5F20F88F5100BF27C3 /* RiskmanagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		64CF2F6920F88F5100BF27C3 /* RiskmanagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64CF2F7920F88F5100BF27C3 /* Build configuration list for PBXNativeTarget "RiskmanagementUITests" */;
+			buildPhases = (
+				64CF2F6620F88F5100BF27C3 /* Sources */,
+				64CF2F6720F88F5100BF27C3 /* Frameworks */,
+				64CF2F6820F88F5100BF27C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				64CF2F6C20F88F5100BF27C3 /* PBXTargetDependency */,
+			);
+			name = RiskmanagementUITests;
+			productName = RiskmanagementUITests;
+			productReference = 64CF2F6A20F88F5100BF27C3 /* RiskmanagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64CF2F3F20F88F4F00BF27C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = demon;
+				TargetAttributes = {
+					64CF2F4620F88F4F00BF27C3 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					64CF2F5E20F88F5100BF27C3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 64CF2F4620F88F4F00BF27C3;
+					};
+					64CF2F6920F88F5100BF27C3 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 64CF2F4620F88F4F00BF27C3;
+					};
+				};
+			};
+			buildConfigurationList = 64CF2F4220F88F4F00BF27C3 /* Build configuration list for PBXProject "Riskmanagement" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64CF2F3E20F88F4F00BF27C3;
+			productRefGroup = 64CF2F4820F88F4F00BF27C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64CF2F4620F88F4F00BF27C3 /* Riskmanagement */,
+				64CF2F5E20F88F5100BF27C3 /* RiskmanagementTests */,
+				64CF2F6920F88F5100BF27C3 /* RiskmanagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64CF2F4520F88F4F00BF27C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CF2F8820F8AC0100BF27C3 /* LoginViewController.xib in Resources */,
+				64CF2F5720F88F5100BF27C3 /* LaunchScreen.storyboard in Resources */,
+				64CF2F8D20F8ACDA00BF27C3 /* RegistViewController.xib in Resources */,
+				64CF2F5420F88F5100BF27C3 /* Assets.xcassets in Resources */,
+				64CF2F5220F88F4F00BF27C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CF2F5D20F88F5100BF27C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CF2F6820F88F5100BF27C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4E5BBA08AA6503697D5D127 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Riskmanagement-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEEF113870E8410234E9AF06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Riskmanagement/Pods-Riskmanagement-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Riskmanagement/Pods-Riskmanagement-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64CF2F4320F88F4F00BF27C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CF2F8C20F8ACDA00BF27C3 /* RegistViewController.m in Sources */,
+				64CF2F5A20F88F5100BF27C3 /* main.m in Sources */,
+				64CF2F8720F8AC0100BF27C3 /* LoginViewController.m in Sources */,
+				64CF2F8220F8AA2C00BF27C3 /* CPTabBarController.m in Sources */,
+				64CF2F7F20F8AA0900BF27C3 /* CPNavigationController.m in Sources */,
+				64CF2F4C20F88F4F00BF27C3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CF2F5B20F88F5100BF27C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CF2F6420F88F5100BF27C3 /* RiskmanagementTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64CF2F6620F88F5100BF27C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64CF2F6F20F88F5100BF27C3 /* RiskmanagementUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64CF2F6120F88F5100BF27C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64CF2F4620F88F4F00BF27C3 /* Riskmanagement */;
+			targetProxy = 64CF2F6020F88F5100BF27C3 /* PBXContainerItemProxy */;
+		};
+		64CF2F6C20F88F5100BF27C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 64CF2F4620F88F4F00BF27C3 /* Riskmanagement */;
+			targetProxy = 64CF2F6B20F88F5100BF27C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64CF2F5020F88F4F00BF27C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CF2F5120F88F4F00BF27C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64CF2F5520F88F5100BF27C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64CF2F5620F88F5100BF27C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64CF2F7120F88F5100BF27C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64CF2F7220F88F5100BF27C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64CF2F7420F88F5100BF27C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD4F3DE2BE275883715D9F9 /* Pods-Riskmanagement.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JHYZ35ZLK;
+				INFOPLIST_FILE = Riskmanagement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Riskmanagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		64CF2F7520F88F5100BF27C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6571C3F51B9996F62929C8D3 /* Pods-Riskmanagement.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JHYZ35ZLK;
+				INFOPLIST_FILE = Riskmanagement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Riskmanagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		64CF2F7720F88F5100BF27C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JHYZ35ZLK;
+				INFOPLIST_FILE = RiskmanagementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RiskmanagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riskmanagement.app/Riskmanagement";
+			};
+			name = Debug;
+		};
+		64CF2F7820F88F5100BF27C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JHYZ35ZLK;
+				INFOPLIST_FILE = RiskmanagementTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RiskmanagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Riskmanagement.app/Riskmanagement";
+			};
+			name = Release;
+		};
+		64CF2F7A20F88F5100BF27C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JHYZ35ZLK;
+				INFOPLIST_FILE = RiskmanagementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RiskmanagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Riskmanagement;
+			};
+			name = Debug;
+		};
+		64CF2F7B20F88F5100BF27C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8JHYZ35ZLK;
+				INFOPLIST_FILE = RiskmanagementUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RiskmanagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Riskmanagement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64CF2F4220F88F4F00BF27C3 /* Build configuration list for PBXProject "Riskmanagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CF2F7120F88F5100BF27C3 /* Debug */,
+				64CF2F7220F88F5100BF27C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CF2F7320F88F5100BF27C3 /* Build configuration list for PBXNativeTarget "Riskmanagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CF2F7420F88F5100BF27C3 /* Debug */,
+				64CF2F7520F88F5100BF27C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CF2F7620F88F5100BF27C3 /* Build configuration list for PBXNativeTarget "RiskmanagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CF2F7720F88F5100BF27C3 /* Debug */,
+				64CF2F7820F88F5100BF27C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64CF2F7920F88F5100BF27C3 /* Build configuration list for PBXNativeTarget "RiskmanagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64CF2F7A20F88F5100BF27C3 /* Debug */,
+				64CF2F7B20F88F5100BF27C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64CF2F3F20F88F4F00BF27C3 /* Project object */;
+}
