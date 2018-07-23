@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		642C168321056E3300BAF026 /* GTExtensionSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C168121056E3200BAF026 /* GTExtensionSDK.framework */; };
+		642C168421056E3300BAF026 /* GTSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C168221056E3200BAF026 /* GTSDK.framework */; };
+		642C168621056F0900BAF026 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C168521056F0900BAF026 /* libz.tbd */; };
+		642C168821056F1F00BAF026 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C168721056F1F00BAF026 /* libc++.tbd */; };
+		642C168A21056F3E00BAF026 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C168921056F3E00BAF026 /* libsqlite3.tbd */; };
+		642C168C21056F4B00BAF026 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C168B21056F4B00BAF026 /* Security.framework */; };
+		642C168E21056F5A00BAF026 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C168D21056F5A00BAF026 /* AdSupport.framework */; };
+		642C169021056F6900BAF026 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C168F21056F6900BAF026 /* UserNotifications.framework */; };
+		642C169221056F7600BAF026 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C169121056F7600BAF026 /* CoreLocation.framework */; };
+		642C169421056F8200BAF026 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C169321056F8200BAF026 /* AVFoundation.framework */; };
+		642C169621056F8E00BAF026 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C169521056F8E00BAF026 /* CoreTelephony.framework */; };
+		642C169821056F9C00BAF026 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C169721056F9C00BAF026 /* SystemConfiguration.framework */; };
+		642C169A21056FB100BAF026 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 642C169921056FB100BAF026 /* MobileCoreServices.framework */; };
+		642C169E2105868000BAF026 /* HttpAfntool.m in Sources */ = {isa = PBXBuildFile; fileRef = 642C169D2105868000BAF026 /* HttpAfntool.m */; };
+		642C16A72105869B00BAF026 /* RSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 642C16A22105869B00BAF026 /* RSA.m */; };
+		642C16A82105869B00BAF026 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 642C16A32105869B00BAF026 /* NSString+Extension.m */; };
+		642C16A92105869B00BAF026 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 642C16A62105869B00BAF026 /* GTMBase64.m */; };
 		64CF2F4C20F88F4F00BF27C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CF2F4B20F88F4F00BF27C3 /* AppDelegate.m */; };
 		64CF2F5220F88F4F00BF27C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CF2F5020F88F4F00BF27C3 /* Main.storyboard */; };
 		64CF2F5420F88F5100BF27C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64CF2F5320F88F5100BF27C3 /* Assets.xcassets */; };
@@ -42,6 +59,31 @@
 
 /* Begin PBXFileReference section */
 		46F36E7D01BE51E13BE9FA47 /* Pods_Riskmanagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Riskmanagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		642C168121056E3200BAF026 /* GTExtensionSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTExtensionSDK.framework; sourceTree = "<group>"; };
+		642C168221056E3200BAF026 /* GTSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTSDK.framework; sourceTree = "<group>"; };
+		642C168521056F0900BAF026 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		642C168721056F1F00BAF026 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		642C168921056F3E00BAF026 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		642C168B21056F4B00BAF026 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		642C168D21056F5A00BAF026 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		642C168F21056F6900BAF026 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		642C169121056F7600BAF026 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		642C169321056F8200BAF026 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		642C169521056F8E00BAF026 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		642C169721056F9C00BAF026 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		642C169921056FB100BAF026 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		642C169C2105868000BAF026 /* HttpAfntool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAfntool.h; sourceTree = "<group>"; };
+		642C169D2105868000BAF026 /* HttpAfntool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpAfntool.m; sourceTree = "<group>"; };
+		642C16A02105869B00BAF026 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		642C16A12105869B00BAF026 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		642C16A22105869B00BAF026 /* RSA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSA.m; sourceTree = "<group>"; };
+		642C16A32105869B00BAF026 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		642C16A42105869B00BAF026 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		642C16A52105869B00BAF026 /* RSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSA.h; sourceTree = "<group>"; };
+		642C16A62105869B00BAF026 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		642C16AA210586E300BAF026 /* LibraryAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryAPI.h; sourceTree = "<group>"; };
+		642C16AB2105877300BAF026 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		64493890210569E8007D39D4 /* Riskmanagement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Riskmanagement.entitlements; sourceTree = "<group>"; };
 		64CF2F4720F88F4F00BF27C3 /* Riskmanagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Riskmanagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CF2F4A20F88F4F00BF27C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64CF2F4B20F88F4F00BF27C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,6 +117,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				642C169A21056FB100BAF026 /* MobileCoreServices.framework in Frameworks */,
+				642C169821056F9C00BAF026 /* SystemConfiguration.framework in Frameworks */,
+				642C169621056F8E00BAF026 /* CoreTelephony.framework in Frameworks */,
+				642C169421056F8200BAF026 /* AVFoundation.framework in Frameworks */,
+				642C169221056F7600BAF026 /* CoreLocation.framework in Frameworks */,
+				642C169021056F6900BAF026 /* UserNotifications.framework in Frameworks */,
+				642C168E21056F5A00BAF026 /* AdSupport.framework in Frameworks */,
+				642C168C21056F4B00BAF026 /* Security.framework in Frameworks */,
+				642C168A21056F3E00BAF026 /* libsqlite3.tbd in Frameworks */,
+				642C168821056F1F00BAF026 /* libc++.tbd in Frameworks */,
+				642C168621056F0900BAF026 /* libz.tbd in Frameworks */,
+				642C168421056E3300BAF026 /* GTSDK.framework in Frameworks */,
+				642C168321056E3300BAF026 /* GTExtensionSDK.framework in Frameworks */,
 				E12D21D171B5EE1DF906B129 /* Pods_Riskmanagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +151,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		642C168021056E3200BAF026 /* GtSdkLib */ = {
+			isa = PBXGroup;
+			children = (
+				642C168121056E3200BAF026 /* GTExtensionSDK.framework */,
+				642C168221056E3200BAF026 /* GTSDK.framework */,
+			);
+			path = GtSdkLib;
+			sourceTree = "<group>";
+		};
+		642C169B2105868000BAF026 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				642C169C2105868000BAF026 /* HttpAfntool.h */,
+				642C169D2105868000BAF026 /* HttpAfntool.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		642C169F2105869B00BAF026 /* Rsa */ = {
+			isa = PBXGroup;
+			children = (
+				642C16A02105869B00BAF026 /* NSString+Extension.h */,
+				642C16A12105869B00BAF026 /* GTMBase64.h */,
+				642C16A22105869B00BAF026 /* RSA.m */,
+				642C16A32105869B00BAF026 /* NSString+Extension.m */,
+				642C16A42105869B00BAF026 /* GTMDefines.h */,
+				642C16A52105869B00BAF026 /* RSA.h */,
+				642C16A62105869B00BAF026 /* GTMBase64.m */,
+			);
+			path = Rsa;
+			sourceTree = "<group>";
+		};
 		64CF2F3E20F88F4F00BF27C3 = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +208,8 @@
 		64CF2F4920F88F4F00BF27C3 /* Riskmanagement */ = {
 			isa = PBXGroup;
 			children = (
+				642C168021056E3200BAF026 /* GtSdkLib */,
+				64493890210569E8007D39D4 /* Riskmanagement.entitlements */,
 				64CF2F8320F8ABDD00BF27C3 /* 登录注册 */,
 				64CF2F7C20F8A98200BF27C3 /* Main */,
 				64CF2F4A20F88F4F00BF27C3 /* AppDelegate.h */,
@@ -155,10 +244,14 @@
 		64CF2F7C20F8A98200BF27C3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				642C16AA210586E300BAF026 /* LibraryAPI.h */,
+				642C169F2105869B00BAF026 /* Rsa */,
+				642C169B2105868000BAF026 /* Http */,
 				64CF2F7D20F8AA0900BF27C3 /* CPNavigationController.h */,
 				64CF2F7E20F8AA0900BF27C3 /* CPNavigationController.m */,
 				64CF2F8020F8AA2C00BF27C3 /* CPTabBarController.h */,
 				64CF2F8120F8AA2C00BF27C3 /* CPTabBarController.m */,
+				642C16AB2105877300BAF026 /* PrefixHeader.pch */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -188,6 +281,17 @@
 		F2B99756D54418F3453225A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				642C169921056FB100BAF026 /* MobileCoreServices.framework */,
+				642C169721056F9C00BAF026 /* SystemConfiguration.framework */,
+				642C169521056F8E00BAF026 /* CoreTelephony.framework */,
+				642C169321056F8200BAF026 /* AVFoundation.framework */,
+				642C169121056F7600BAF026 /* CoreLocation.framework */,
+				642C168F21056F6900BAF026 /* UserNotifications.framework */,
+				642C168D21056F5A00BAF026 /* AdSupport.framework */,
+				642C168B21056F4B00BAF026 /* Security.framework */,
+				642C168921056F3E00BAF026 /* libsqlite3.tbd */,
+				642C168721056F1F00BAF026 /* libc++.tbd */,
+				642C168521056F0900BAF026 /* libz.tbd */,
 				46F36E7D01BE51E13BE9FA47 /* Pods_Riskmanagement.framework */,
 			);
 			name = Frameworks;
@@ -262,6 +366,17 @@
 				TargetAttributes = {
 					64CF2F4620F88F4F00BF27C3 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 0;
+							};
+						};
 					};
 					64CF2F5E20F88F5100BF27C3 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -380,6 +495,10 @@
 				64CF2F8220F8AA2C00BF27C3 /* CPTabBarController.m in Sources */,
 				64CF2F7F20F8AA0900BF27C3 /* CPNavigationController.m in Sources */,
 				64CF2F4C20F88F4F00BF27C3 /* AppDelegate.m in Sources */,
+				642C16A72105869B00BAF026 /* RSA.m in Sources */,
+				642C16A92105869B00BAF026 /* GTMBase64.m in Sources */,
+				642C16A82105869B00BAF026 /* NSString+Extension.m in Sources */,
+				642C169E2105868000BAF026 /* HttpAfntool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,16 +668,25 @@
 			baseConfigurationReference = EFD4F3DE2BE275883715D9F9 /* Pods-Riskmanagement.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = Riskmanagement/Riskmanagement.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8JHYZ35ZLK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Riskmanagement/GtSdkLib",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Riskmanagement/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = Riskmanagement/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Riskmanagement;
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.Riskmanagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1aa3f188-9358-4c26-9dc4-f4448cf2de0a";
+				PROVISIONING_PROFILE_SPECIFIER = RM_development;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -568,16 +696,26 @@
 			baseConfigurationReference = 6571C3F51B9996F62929C8D3 /* Pods-Riskmanagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = Riskmanagement/Riskmanagement.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 8JHYZ35ZLK;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Riskmanagement/GtSdkLib",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Riskmanagement/Main/PrefixHeader.pch";
 				INFOPLIST_FILE = Riskmanagement/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Riskmanagement;
+				PRODUCT_BUNDLE_IDENTIFIER = com.datasoft.Riskmanagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1aa3f188-9358-4c26-9dc4-f4448cf2de0a";
+				PROVISIONING_PROFILE_SPECIFIER = RM_development;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

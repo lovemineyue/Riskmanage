@@ -8,15 +8,24 @@
 
 #import "LoginViewController.h"
 
-@interface LoginViewController ()
-
+//#define  webIP @"192.168.42.198:3000"
+#define  webIP @"https://www.baidu.com"
+@interface LoginViewController ()<UIWebViewDelegate>
+@property (strong, nonatomic)UIWebView *webView;
 @end
 
 @implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    UIWebView *webView = [[UIWebView alloc]initWithFrame:self.view.bounds];
+    webView.delegate = self;
+    NSURLRequest *request = [[NSURLRequest alloc]initWithURL:[NSURL URLWithString:webIP]];
+    [webView loadRequest:request];
+    self.webView = webView;
+    [self.view addSubview:webView];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +33,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)webViewDidStartLoad:(UIWebView *)webView
+{
+    
 }
-*/
+
 
 @end
